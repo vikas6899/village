@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      padding-top: 56px;
+    }
+.gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .photo {
+      width:100%;
+    }
+ .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+p{
+width:100%;
+height:240px;
+background-color:blanchedalmond;
+}
+a2{
+background-color:red;
+width:100%;
+height:240px;
+background-color:blanchedalmond;
+}
+ .contact-container {
+      max-width: 400px;
+      margin: 50px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-bottom: 8px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    button {
+      padding: 10px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+a3{
+
+margin-right:500px;
+}
+  </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="#">Your Website</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="login.html">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="reg.html">Registration</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<p> <br>
+<b>दौलतिया</b> गाँव, <b>उतार प्रदेश</b> राज्य के क्षेत्र में स्थित है, जहां प्राकृतिक सौंदर्य, वन्यजीव, और हरित सरिताएं इसे एक अद्वितीय स्थान बनाती हैं।<br>
+ यहां के लोग अपनी सद्गुण संस्कृति और परंपराओं को गर्व से बनाए रखते हैं।<br>
+दौलतियाका स्वागत सरलता और समृद्धि की भावना से भरा होता है। गाँव की सड़कें पेड़ों और फूलों से घिरी होती हैं जो हर कदम पर आपको शांति का अहसास कराती हैं।<br>
+ दौलतियाके लोग एक बड़े परिवार की भावना से रहते हैं, जहां हर किसी को सम्मान और साझेदारी की महत्वपूर्णता होती है।<br>
+यहां के प्रसिद्ध दरबार और पर्वों में लोग मिलते हैं और आपस में खुशियाँ बांटते हैं। बनपुर का वातावरण हमेशा खुशी और समृद्धि से भरा होता है, जो इसे एक अद्वितीय स्थान बनाता है।<br>
+
+आपको बनपुर में स्वागत है! यहां आकर आप स्वयं देख सकते हैं कि कैसे प्राकृतिक सौंदर्य और सादगी का संगम एक अद्वितीय और सुखद अनुभव प्रदान करता है।<br><br><br>By :Vikas Varma
+</p>
+
+<div class="gallery">
+  <div class="photo" onclick="openFullscreen('photo1.jpg')">
+    <img src="a.jpg" alt="Photo 1">
+  </div>
+  <div class="photo" onclick="openFullscreen('photo2.jpg')">
+    <img src="b.jpg" alt="Photo 2">
+  </div>
+  <div class="photo" onclick="openFullscreen('photo3.jpg')">
+    <img src="c.jpg" alt="Photo 3">
+  </div>
+  <div class="photo" onclick="openFullscreen('photo4.jpg')">
+    <img src="e.jpg" alt="Photo 4">
+  </div>
+  <div class="photo" onclick="openFullscreen('photo5.jpg')">
+    <img src="h.jpg" alt="Photo 5">
+<div class="photo" onclick="openFullscreen('photo5.jpg')">
+    <img src="g.jpg" alt="Photo 5">
+  </div>
+
+<!-- Content -->
+
+  <!-- Your website content goes here -->
+</div>
+<div class="a2"></div>
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Smooth scrolling with jQuery -->
+<script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+          window.location.hash = hash;
+        });
+      }
+    });
+  });
+function openFullscreen(imageSrc) {
+    const fullscreenDiv = document.querySelector('.fullscreen');
+    const fullscreenImage = document.getElementById('fullscreen-image');
+    fullscreenImage.src = imageSrc;
+    fullscreenDiv.style.display = 'flex';
+  }
+
+  function closeFullscreen() {
+    const fullscreenDiv = document.querySelector('.fullscreen');
+    fullscreenDiv.style.display = 'none';
+</script>
+
+</body>
+</html>
